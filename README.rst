@@ -2,8 +2,8 @@ This is a project for associating job titles with categories and questions for a
 using the Microservices architectural pattern and Django REST Framework.
 
 Version Control:
-    $ Python 3.6
-    $ Django 2.1
+    Python 3.6;
+    Django 2.1
 
 Steps to start the project::
 
@@ -28,9 +28,9 @@ The available requests for the projects are as follows::
     with all categories related to the job and all questions related to the category, or get all job titles with all categories related to them.
 
     $ http://127.0.0.1:8000/job/post -> POST request for creating a job, and a category for it. Parameter map is:
-        'job_title'
-        'name'
-        'desc'
+        'job_title';
+        'name';
+        'desc';
 
 
 To run tests::
