@@ -32,3 +32,6 @@ The available requests for the projects are as follows::
         'name'
         'desc'
 
+
+To run tests::
+    In each project, inside the virtualenv: python manage.py test
